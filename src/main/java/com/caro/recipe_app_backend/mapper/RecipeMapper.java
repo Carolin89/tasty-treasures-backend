@@ -4,10 +4,6 @@ import com.caro.recipe_app_backend.dto.RecipeDTO;
 import com.caro.recipe_app_backend.model.Recipe;
 import org.springframework.stereotype.Component;
 
-/**
- * Maps between Recipe entity and RecipeDTO.
- * Handles derived fields like totalTimeInMinutes.
- */
 @Component
 public class RecipeMapper {
 
