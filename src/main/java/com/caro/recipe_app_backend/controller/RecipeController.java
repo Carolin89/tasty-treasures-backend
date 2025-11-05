@@ -33,7 +33,6 @@ public class RecipeController {
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
     public RecipeDTO create(@Valid @RequestBody RecipeDTO recipeDTO) {
-        System.out.println("📥 POST /api/recipes hit: " + recipeDTO);
         return recipeService.create(recipeDTO);
     }
 
